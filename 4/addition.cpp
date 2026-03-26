@@ -4,8 +4,9 @@
 using namespace std;
 
 int uadd_ok(unsigned a, unsigned b){
-	unsigned sum = a + b;
-	return sum >= a;
+	int sum;
+	sum = a + b;
+	return sum < a;
 }
 
 int tadd_ok(int a, int b){
